@@ -1,0 +1,33 @@
+.about-container {
+  margin: 4rem 6rem;
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  text-align: start;
+}
+
+.about-container p {
+  font-size: 0.9rem;
+  text-align: start;
+}
+
+.about-history span {
+  color: rgb(78, 220, 255);
+}
+
+.about-mision span {
+  color: rgb(93, 37, 248);
+}
+
+.about-vision span {
+  color: rgb(253, 11, 2);
+}
+
+@media screen and (max-width: 850px) {
+  .about-container {
+    margin: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

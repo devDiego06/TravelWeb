@@ -1,0 +1,64 @@
+.footer {
+  padding: 4rem 6rem;
+  background-color: black;
+  color: white;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.div1 i {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.div1 i:hover {
+  color: grey;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  flex-wrap: wrap;
+}
+
+.div2 div {
+  display: flex;
+  flex-direction: column;
+}
+
+.div2 h4 {
+  font-size: 1.3rem;
+  padding: 1rem 0 0.8rem 0;
+}
+
+.div2 a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+.div2 a:hover {
+  color: grey;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 4rem 2rem;
+  }
+
+  .footer i {
+    margin: 1rem 1rem 0 0;
+  }
+
+  .div2 div {
+    width: 50%;
+  }
+}
